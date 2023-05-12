@@ -1,0 +1,4 @@
+<template>
+    <AboutUs />
+    <Footer />
+</template>

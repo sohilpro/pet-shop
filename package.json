@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@vueuse/nuxt": "^9.13.0",
+    "flowbite": "^1.6.4",
+    "nuxt": "^3.4.3",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "nuxt-swiper": "^1.0.1",
+    "pinia": "^2.0.33",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
