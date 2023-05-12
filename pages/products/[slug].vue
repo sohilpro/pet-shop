@@ -5,7 +5,7 @@
     <ClientOnly>
       <div
         v-if="productData.status !== 'not found'"
-        class="bg-white dark:bg-slate-800 pb-28 mt-32 fade-in md:mt-0 shadow-2xl md:w-11/12 lg:w-auto rtl space-x-3 overflow-hidden md:p-8 md:flex-row-reverse flex-col-reverse flex rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        class="bg-white dark:bg-slate-800 pb-24 pt-8 pr-8 pl-8 md:p-8 mt-32 fade-in md:mt-0 shadow-2xl md:w-11/12 lg:w-auto rtl space-x-3 overflow-hidden md:flex-row-reverse flex-col-reverse flex rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
       >
         <div class="w-full h-full mt-4 md:mt-0">
           <div class="space-y-3">
